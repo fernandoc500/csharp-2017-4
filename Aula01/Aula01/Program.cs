@@ -10,9 +10,13 @@ namespace Aula01
     {
         static void Main(string[] args)
         {
-            int teste = somar(5, 5);
+            Console.WriteLine("Primeira entrada: ");
+            int entrada1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Segunda entrada: ");
+            int entrada2 = int.Parse(Console.ReadLine());
 
-            Console.Write(teste);
+            Console.Write("Resultado: ");
+            Console.Write(somar(entrada1, entrada2));
             Console.ReadLine();
         }
 
