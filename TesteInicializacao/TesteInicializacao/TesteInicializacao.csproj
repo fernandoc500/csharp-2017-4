@@ -54,7 +54,7 @@
     <ApplicationIcon>8325_256x256 %281%29.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>TesteInicializacao.Program</StartupObject>
+    <StartupObject>TesteInicializacao.OutroPrograma</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

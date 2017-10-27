@@ -15,7 +15,10 @@ namespace TesteInicializacao
         /// <returns>A matrícula</returns>
         public String ObterMatricula(String nome)
         {
-            return null;
+            if (nome == "Fernando")
+                return "1322728";
+            else
+                return "1231231";
         }
     }
 }

@@ -37,6 +37,7 @@ namespace TesteInicializacao
             RecuperadorDeDados recuperador = new RecuperadorDeDados();
             String matricula = recuperador.ObterMatricula(nome);
 
+            Console.WriteLine("Sua matrícula é: " + matricula);
 
             //Espera o usuário digitar alguma tecla. 
             //Serve para o console não fechar após a impressão da mensagem linha anterior.
